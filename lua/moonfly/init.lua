@@ -30,7 +30,8 @@ local grey7 = "#121212"
 -- Core theme colors
 -- local khaki = "#c6c684"
 local khaki = "#C3E88D"
-local yellow = "#e3c78a"
+-- local yellow = "#e3c78a"
+local yellow = "#ffd700"
 -- local orange = "#de935f"
 local orange = "#f78c6c"
 local coral = "#f09479"
@@ -432,6 +433,7 @@ M.style = function()
   highlight(0, "@tag.builtin", { link = "MoonflyBlue" })
   highlight(0, "@tag.delimiter", { link = "MoonflyGreen" })
   -- highlight(0, "@type.builtin", { link = "MoonflyEmerald" })
+  highlight(0, "@type", { fg = yellow, italic = true })
   highlight(0, "@type.builtin", { fg = violet, italic = true })
   highlight(0, "@type.qualifier", { link = "MoonflyViolet" })
   highlight(0, "@variable", { link = "MoonflyWhite" })
